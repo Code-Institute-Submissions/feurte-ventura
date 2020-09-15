@@ -68,16 +68,40 @@
 			</div>
 		</nav>
 
-		<!-- /Navigation Bar -->
+	<!-- /Navigation Bar -->
 	</header>
-
+    <div class="row">
 	<div class="container-fluid information-container">
 		<img class="feurte" src="images/feurte.jpg" alt="picture of feurte ventura from the ocean">
 			<h2 class="text-center">Feurteventura</h2>
 			<p>If you love fine sandy beaches then, Feurteventura is just for you! From small sandy coves to miles of long beaches, Feurteventura has the lot! In fact there are over 100+ beaches on the island that make up over 20% of the coastline that is roughly 340km long, that is around 70km of beaches along the lovely coast!</p>
             <p>For many years Fuerteventura’s main industry was goat and cattle farming, and many families throughout the island still raise goats. This has resulted in some of Fuerteventura’s most delicious and traditional dishes, rich goat stews and braised goat dishes.</p>
             <p>While goats and cattle were more important than any sort of fishing industry for most of the island’s history, that certainly doesn’t mean that people in Fuerteventura don’t eat fish! On the contrary, fresh fish is found throughout the island and it is typical for a restaurant to advertise their catch of the day!</p>
+            <h2 class="text-center">Why Waste Time?</h2>
+            <h4 class="text-center">Fill out the form below to have one of our experienced agents to call you back about a fantastic getaway to one of the fantastic locations on the island!</h4>
 	</div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center">Holiday Request</h2>
+            <h4 class="text-center">Don't wait any longer request a call!!!</h4>
+
+            <div class="form-request-center">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                    <input type="tel" name="phone-num" id="phone-num" class="form-control" placeholder="Telephone Number" required>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="E-mail Address" required>
+                    <textarea name="holidayrequest" id="holidayrequest" rows="5" class="form-control" placeholder="Preferred Area/Additional Information"></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn">Send Request</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 	<!-- Footer -->
 
@@ -112,7 +136,10 @@
 
 	<!-- /Footer -->
 
+    <script src="js/sendEmail.js"></script>
+
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
 	<script src="https://kit.fontawesome.com/6a98789392.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

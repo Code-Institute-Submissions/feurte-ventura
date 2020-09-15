@@ -8,10 +8,6 @@ h2 {
     padding: 10px 0;
 }
 
-footer {
-    padding-top: 10px;
-}
-
 /*--Header--*/
 
 .navbar--color {
@@ -43,6 +39,22 @@ nav a:hover {
 .information-container {
     padding-top: 50px;
     padding-left: 0;
+}
+
+/*-- Request Form --*/
+
+.form-request-heading {
+    margin: 20px 0;
+}
+
+.form-request-center {
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type=submit] {
+    margin: 10px 0;
 }
 
 /*--Popular Cities--*/
