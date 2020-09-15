@@ -1,6 +1,8 @@
 /*--General--*/
 
-
+h2 {
+    color: rgb(253, 151, 17);
+}
 
 /*--Header--*/
 
@@ -27,10 +29,22 @@ nav a:hover {
     width: 50vw;
     height: 50vw;
     float: left;
+    padding-right: 15px;
 }
 
 .information-container {
     padding-top: 50px;
+    padding-left: 0;
+}
+
+/*--Popular Cities--*/
+
+.popular-heading {
+    padding-top: 50px;
+}
+
+div#corralejo-map {
+    min-height: 360px;
 }
 
 /*--Carousel--*/

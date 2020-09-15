@@ -57,9 +57,22 @@
           </form>
         </div>
       </nav>
-
-      <!-- /Navigation Bar -->
     </header>
+    <!-- /Navigation Bar -->
+
+    <!-- Popular Cities  -->
+    <h2 class="popular-heading text-center">Popular Cities</h2>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="corralejo-map"></div>
+        </div>
+        <div class="col-sm-6">
+            <h2 class="text-center">Corralejo</h2>
+        </div>
+    </div>
+
+    <!-- /Popular Cities -->
 
     <!-- Footer -->
 
@@ -94,7 +107,7 @@
 
     <!-- /Footer -->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Google Maps API key -->
     <script
       src="https://kit.fontawesome.com/6a98789392.js"
       crossorigin="anonymous"
@@ -114,5 +127,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/popular-cities-maps.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLrLC8QphPdWkei2OmDy3iHTiffyFvN4c&callback=initMap"></script>
 </body>
 </html>
