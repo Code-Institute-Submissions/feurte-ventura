@@ -4,6 +4,10 @@ h2 {
     color: rgb(253, 151, 17);
 }
 
+.row {
+    padding: 10px 0;
+}
+
 /*--Header--*/
 
 .navbar--color {
@@ -44,6 +48,30 @@ nav a:hover {
 }
 
 div#corralejo-map {
+    min-height: 360px;
+}
+
+div#castillo-caleta-de-fuste-map {
+    min-height: 360px;
+}
+
+div#costa-de-antigua-map {
+    min-height: 360px;
+}
+
+div#morro-jable-map {
+    min-height: 360px;
+}
+
+div#el-cotillo-map {
+    min-height: 360px;
+}
+
+div#puerto-del-rosario-map {
+    min-height: 360px;
+}
+
+div#playa-jandia-map {
     min-height: 360px;
 }
 
