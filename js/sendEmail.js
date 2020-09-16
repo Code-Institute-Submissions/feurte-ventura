@@ -12,4 +12,5 @@ function sendMail(requestForm) {
         function(error) {
             console.log("OOPS SOMETHING WENT WRONG", error);
         });
-}
+    return false;
+};
