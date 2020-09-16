@@ -54,7 +54,10 @@ nav a:hover {
 }
 
 button[type=submit] {
+    background-color: rgb(9, 214, 241);
+    color: rgb(253, 151, 17);
     margin: 10px 0;
+    border: solid 1px;
 }
 
 /*--Popular Cities--*/
