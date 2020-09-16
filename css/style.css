@@ -94,6 +94,11 @@ div#playa-jandia-map {
     min-height: 360px;
 }
 
+.popular-cities-text {
+    font-size: 20px;
+    text-align: center;
+}
+
 /*--Carousel--*/
 
 * {
@@ -130,7 +135,7 @@ div#playa-jandia-map {
 }
 
 .next {
-  right: 0;
+  right: 16px;
   border-radius: 3px 0 0 3px;
 }
 
