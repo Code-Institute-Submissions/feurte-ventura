@@ -15,6 +15,14 @@ The creation point is so that the consumer can learn it is more than just beache
 
 * I want to be able to see surrounding areas of where I'm thinking of going.
 
+## Mock Ups
+
+![Mock Up of homepage](assets/images/homepage-mockup.jpg)
+
+![Mock up of gallery](assets/images/pics-mockup.jpg)
+
+![Mock up of popular cities](assets/images/popular-cities-mockup.jpg)
+
 ## Features
 
 ### Existing Features
@@ -52,6 +60,12 @@ The creation point is so that the consumer can learn it is more than just beache
 ## Testing
 
 1. Google Chrome, Safari & Internet Explorer - were used to veiw site in different browsers.
+
+2. Chrome DevTools - was used generously for styling and spacing and also viewport screens.
+
+3. Present Issue with images on mobile screen being wider than screen and need to be screen length.
+
+4. Present Issue with links on Popular cities taking you to the correct id but puts the id at the top of the page, but I would like it more centralised.
 
 ## Deployment
 
