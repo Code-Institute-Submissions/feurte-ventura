@@ -1,5 +1,9 @@
 /*--General--*/
 
+p {
+    text-align: center;
+}
+
 body {
     background-color: rgb(119, 136, 153);
 }
@@ -44,6 +48,14 @@ nav a:hover {
     padding-top: 70px;
     padding-left: 0;
 }
+
+@media (max-width: 600px) {
+    .fuerte {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 /*-- Request Form --*/
 
