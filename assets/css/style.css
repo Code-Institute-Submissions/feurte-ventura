@@ -2,14 +2,15 @@
 
 p {
     text-align: center;
+    padding: 15px 15px;
 }
 
 body {
-    background-color: rgb(119, 136, 153);
+    text-align: center;
 }
 
 h2 {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 95, 21);
 }
 
 .row {
@@ -35,27 +36,20 @@ nav a:hover {
     text-decoration: none;
 }
 
+.navbar-toggler {
+    border: 1px solid rgb(253, 151, 17);
+}
+
 /*--Information--*/
 
 .fuerte {
-    width: 50vw;
+    width: 75vw;
     height: 50vw;
-    float: left;
-    padding-right: 15px;
 }
 
 .information-container {
     padding-top: 70px;
-    padding-left: 0;
 }
-
-@media (max-width: 600px) {
-    .fuerte {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 
 /*-- Request Form --*/
 
@@ -137,7 +131,7 @@ div#playa-jandia-map {
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 40%;
   width: auto;
   padding: 16px;

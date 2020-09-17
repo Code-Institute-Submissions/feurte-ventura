@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS JS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>FuerteVentura</title>
 </head>
 <body>
@@ -60,12 +60,13 @@
         <a href="#castillo-caleta-de-fuste-map">Castillo Caleta De Fuste</a>
         <a href="#costa-de-antigua-map">Costa De Antigua</a>
         <a href="#morro-jable-map">Morro Jable</a>
-        <a href="#el-cotillo-map">Cotillo</a>
+        <a href="#el-cotillo-map">El Cotillo</a>
         <a href="#puerto-del-rosario-map">Puerto Del Rosario</a>
         <a href="#playa-jandia-map">Playa Jandia</a>
     </div>
 
-    <div class="row">
+    <div class="container">
+        <div class="row">
         <div class="col-sm-6">
             <div id="corralejo-map"></div>
         </div>
@@ -77,11 +78,11 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <div id="castillo-caleta-de-fuste-map"></div>
-        </div>
-        <div class="col-sm-6">
             <h2 class="text-center">Castillo Caleta De Fuste</h2>
             <p class="popular-cities-text">Take a course at the Deep Blue Diving base to get you ready to get on an Obycat and go out to the ocean on a tour, come back and wind down on the golden sands at the Plage De El Castillo. If you feel up to it Cool Runnings will have you running aroung the sights taking in the views as you go along and up and down the mountains with a guide.</p>
+        </div>
+        <div class="col-sm-6">
+            <div id="castillo-caleta-de-fuste-map"></div>
         </div>
     </div>
 
@@ -97,11 +98,11 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <div id="morro-jable-map"></div>
-        </div>
-        <div class="col-sm-6">
             <h2 class="text-center">Morro Jable</h2>
             <p class="popular-cities-text">Lie down and take in the sun rays on the beautiful Playa De Cofete Beach. Get some training at the Buceo Diving Centre for all your diving questions and practice runs in their pools to get you ready for the big blue ocean. Take a a chilled day around the 18-hole Golf course waiting for you in Morro Jable</p>
+        </div>
+        <div class="col-sm-6">
+            <div id="morro-jable-map"></div>
         </div>
     </div>
 
@@ -117,11 +118,11 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <div id="puerto-del-rosario-map"></div>
-        </div>
-        <div class="col-sm-6">
             <h2 class="text-center">Puerto Del Rosario</h2>
             <p class="popular-cities-text">Visit the lovely Playa Chica for the amazing views. Take a trip to Hafen Puerto Del Rosario take take a stroll down the pier and through visit the shopping centre with a vast amount of shops. Have a race round the track in a go-kart at Gran Karting, or take a relaxing and learnable experience going through the sculpture park</p>
+        </div>
+        <div class="col-sm-6">
+            <div id="puerto-del-rosario-map"></div>
         </div>
     </div>
 
@@ -133,6 +134,7 @@
             <h2 class="text-center">Playa Jandia</h2>
             <p class="popular-cities-text">Visit the beautiful Playa De Sotavento Beach to relax. If you are looking for a little bit more adventure take a visit to the Ticket Shop, where you can rent bicycles, go snorkelling and diving and even swim with dolphins. If you would like to see the scenerey then you can also take the Senda Ventura which is the tour while you are on a Segway!</p>
         </div>
+    </div>
     </div>
 
     <!-- /Popular Cities -->
@@ -176,7 +178,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <script src="js/popular-cities-maps.js"></script>
+    <script src="assets/js/popular-cities-maps.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLrLC8QphPdWkei2OmDy3iHTiffyFvN4c&callback=initMap"></script>
 </body>
