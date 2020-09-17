@@ -1,7 +1,11 @@
 /*--General--*/
 
+body {
+    background-color: rgb(119, 136, 153);
+}
+
 h2 {
-    color: rgb(253, 151, 17);
+    color: rgb(255, 0, 0);
 }
 
 .row {
@@ -11,7 +15,7 @@ h2 {
 /*--Header--*/
 
 .navbar--color {
-    background-color: rgb(9, 214, 241);
+    background-color: rgb(0, 46, 24);
     margin-bottom: 10px;
 }
 
@@ -37,7 +41,7 @@ nav a:hover {
 }
 
 .information-container {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-left: 0;
 }
 
@@ -54,7 +58,7 @@ nav a:hover {
 }
 
 button[type=submit] {
-    background-color: rgb(9, 214, 241);
+    background-color: rgb(0, 46, 24);
     color: rgb(253, 151, 17);
     margin: 10px 0;
     border: solid 1px;
@@ -63,7 +67,7 @@ button[type=submit] {
 /*--Popular Cities--*/
 
 .popular-heading {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 div#corralejo-map {
@@ -168,7 +172,7 @@ div#playa-jandia-map {
 
 footer {
     color: rgb(253, 151, 17);
-    background-color: rgb(9, 214, 241);
+    background-color: rgb(0, 46, 24);;
     min-height: 100px;
     margin: 0;
 }
